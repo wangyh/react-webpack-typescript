@@ -21,11 +21,11 @@ module.exports = {
             {
                 test: /\.tsx?$/,
                 exclude: /node_modules/,
-                loader: "react-hot!ts-loader"
+                loader: "react-hot!ts"
             },
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader'
+                loader: 'style!css'
             }
         ]
     }
